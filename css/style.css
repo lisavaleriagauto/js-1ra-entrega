@@ -1,0 +1,21 @@
+/*MAIN*/
+
+main{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 247, 250);
+}
+
+h1 {
+    color: rgb(15, 7, 62);
+    text-align: center;
+}
+
+p {
+    color: rgb(20, 19, 19);
+    padding-left: 10px;
+}
+
+.footer {
+    text-align: center;
+}
