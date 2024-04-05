@@ -12,6 +12,17 @@ else if (ingreso == "3") {
     alert("Tiempo de espera: 30 minutos")
 }
 
+let usuario = {
+    condicionSalud: "",
+    sintomas: [],
+    desdeCuando: "",
+};
+
+usuario.condicionSalud = prompt("Ingrese su condición de salud:");
+let sintomasInput = prompt("Ingrese sus síntomas:");
+usuario.desdeCuando = prompt("¿Desde cuándo tiene los síntomas?");
+
+console.log(usuario);
 
 
 const elementos = ['Riesgo Inmediato', 'Urgente', 'No Urgente'];
